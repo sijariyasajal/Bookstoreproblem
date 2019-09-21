@@ -8,6 +8,7 @@ public class Bookstore {
         if (n == 0) {
             System.out.println("N/A");
         } else {
+            scanner.nextLine();
             for (int i = 0; i < n; i++) {
                 String bookName;
                 String authorName;
